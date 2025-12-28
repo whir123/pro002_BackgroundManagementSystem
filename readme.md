@@ -1,7 +1,6 @@
 # 员工及管理员后台管理系统
 
 - 自己学习练手的全栈小项目
-- 用了学校体育部助管期间教职工与学生的资料数据
 - 包含前端、后端和数据库的全栈管理系统
 - 跟练视频：【【带小白做毕设2026】从0开始手把手教你做毕设，基于SpringBoot3+Vue3最新技术栈，独立做一个完整的前后端分离项目（校园小卖部）】 https://www.bilibili.com/video/BV1jHkfBaE4B/?share_source=copy_web&vd_source=6087aa2acf27e9ed62d658feb59ce731
 
@@ -26,6 +25,8 @@
 
 ### 2️⃣ 后端启动（SpringBoot3 + MyBatis）
     cd backend
-    # 用 intelliJ IDE 直接运行 Application 主类，或用命令：
-    ./mvnw spring-boot:run
+    mvn clean
+    rm -rf target
+    mvn spring-boot:run
+
 
